@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Burger</title>
+<link rel="stylesheet" href="css/style.css">
+<!---boot link--->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!---boot link--->
+
+<!---icon cdn link--->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<!---icon cdn link--->
+<!---google font link--->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,692;1,692&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,692;1,692&family=Rochester&display=swap" rel="stylesheet">
+<!---google font link--->
+
+<!---fa fa cdn link--->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<!---fa fa cdn link--->
+
+<!---fav icon--->
+<link rel="fav icon" href="images/logo.png">
+<!---fav icon--->
+<!-- AOS ANIMATION -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- AOS ANIMATION -->
+</head>
+<body>
+
+
+<!-----mni header start------>
+<div class="minheader">
+  <div class="container d-flex justify-content-center justify-content-md-between">
+    <div class="contact-info d-flex align-items-center">
+      <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com"> burger29@gmail.com</a></i>
+      <i class="bi bi-phone d-flex align-items-center ms-4"><a href=""><span> 999 4020 225</span></a></i>
+    </div>
+    <div class="social-links d-none d-md-flex align-items-center">
+      <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+    </div>
+  </div>
+</div>
+<!-------mni header end--------->
+
+
+<!--------------header start---------------->
+<div class="header">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+       <img src="images/logo.png" alt="" width="50px">BUR <span>GER</span>
+      </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto mb-2 mb-lg-0 ">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#banner"><span>Home</span></a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="#about">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#menu" >menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact us">contact us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+        </li>
+      </ul>
+   
+<!---popup start--->
+<button type="button" class="btnpop" data-bs-toggle="modal" data-bs-target="#mymodal">order now</button>
+<div class="modal fade" id="mymodal" data-bs-backdrop="static" data-bs-keuboard="false">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="order" >order now</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+       <form>
+        <div class="mb-3">
+             <label for="from-label required">name</label>
+             <input type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="from-label required">email</label>
+            <input type="email" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="from-label required">menu</label>
+             <input type="text" class="form-control">
+        </div>
+       </form>
+      </div>
+
+      <div class="modal-footer">
+       <button type="submit" class="btno">order</button>
+       <button type="submit" class="btnc">close</button>
+      </div>
+    </div>
+  </div>
+</div> 
+<!---popup end--->
+</div>
+</div>
+</nav>
+</div>
+<!--------------header end------------------->
+
+<!--------------banner start------------------->
+<div class="banner" id="home">
+  <div class="container" data-aos="fade-up"
+  data-aos-duration="700">
+    <h1>super testy
+      <br><span>burger</span>
+    </h1>
+    <p>Best Burger in your City in best plasce burger shop!</p>
+    <div class="bbtn"><button>onder now</button><span>%99.00</span></div>
+  </div>
+</div>
+<!--------------banner end------------------->  
+
+<!--------------offer star------------------->  
+<div class="offer">
+  <div class="container">
+    <h1>offer</h1>
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="oof">
+        <div class="offimage">
+          <img src="images/offer image 1.jpg" alt="">
+        </div>
+        <div class="offcontent">
+          <h3>super sunday</h3>
+          <h2>40%</h2>
+          <div class="offbtn">
+            <button>order now</button>
+          </div>
+         </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="oof">
+        <div class="offimage">
+          <img src="images/offer image 2.jpg" alt="">
+        </div>
+        <div class="offcontent">
+          <h3>combo offer</h3>
+          <h2>40%</h2>
+          <div class="offbtn">
+            <button>order now</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------------offer end------------------->  
+
+<!--------------menu star------------------->  
+<div class="menu" id="menu">
+  <div class="container">
+    <h1><span>our </span>menu</h1>
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div class="card ">
+          <img src="images/menu3-removebg-preview.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">crispy burger</h5>
+          <p class="card-text">A crispy burger loaded with a crunchy golden-brown patty, fresh lettuce, juicy tomatoes, creamy sauce, and a toasted bun. A delightful crunch in every bite, perfect for satisfying cravings!</p>
+          <div class="mbtn"><button><i class="fa fa-inr" aria-hidden="true"></i>129</button> 
+            <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div class="card data-aos="flip-right>
+          <img src="images/m1.png" class="card-img-top"  width="500">
+          <div class="card-body">
+            <h5 class="card-title">Seafood Pizza</h5>
+            <p class="card-text">Seafood pizza offers high-quality protein, omega-3 fatty acids, and essential vitamins from seafood toppings. Combined with a balanced mix of carbs</p>
+            <div class="mbtn2"><button><i class="fa fa-inr" aria-hidden="true"></i>300</button> 
+              <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div class="card">
+          <img src="images/m5.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">French fries</h5>
+            <p class="card-text">
+              Golden, crispy French fries are a timeless side dish made from thinly sliced potatoes, deep-fried to perfection. Lightly salted and irresistibly crunchy.</p>
+            <div class="mbtn3"><button><i class="fa fa-inr" aria-hidden="true"></i>66</button> 
+              <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div class="card">
+          <img src="images/m3.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">cheese pizza</h5>
+            <p class="card-text"> A classic cheese pizza featuring a golden, crispy crust, rich tomato sauce, and a luscious layer of melted mozzarella. Simple, satisfying, and bursting with comforting, cheesy goodness in every bite!</p>
+            <div class="mbtn"><button><i class="fa fa-inr" aria-hidden="true"></i>180</button> 
+            <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div class="card">
+          <img src="images/menu1-removebg-preview.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">beef burger</h5>
+            <p class="card-text"> A beef burger provides high-quality protein, essential vitamins like B12, and iron for energy and muscle health. Paired with veggies and whole-grain buns, it supports a balanced, nutrient-rich meal.!</p>
+            <div class="mbtn5"><button><i class="fa fa-inr" aria-hidden="true"></i>155</button> 
+              <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div class="card">
+          <img src="images/m4.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">pasta</h5>
+            <p class="card-text">Rich in complex carbohydrates, pasta provides sustained energy. Easily pairs with nutrient-rich vegetables, lean proteins, and healthy fats. Balanced portions contribute to satiety and controlled calorie intake.</p>
+            <div class="mbtn"><button><i class="fa fa-inr" aria-hidden="true"></i>200</button> 
+              <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div class="card">
+          <img src="images/menu2-removebg-preview.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">veg burger</h5>
+            <p class="card-text">A veg burger is rich in fiber, vitamins, and antioxidants from fresh veggies. Low in saturated fats, it supports heart health, aids digestion, and provides a satisfying, plant-based protein option.</p>
+          <div class="mbtn7"><button><i class="fa fa-inr" aria-hidden="true"></i>89</button> 
+            <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div class="card">
+          <img src="images/m9.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">cheese pasta</h5>
+            <p class="card-text">Cheese and pasta provide a good amount of protein, supporting muscle repair and growth, Cheese contains healthy fats, supporting brain function and hormone production, Depending on the cheese.</p>
+            <div class="mbtn"><button><i class="fa fa-inr" aria-hidden="true"></i>222</button> 
+              <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div class="card">
+          <img src="images/m6.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">veg pizza</h5>
+            <p class="card-text">Topped with vegetables like spinach, tomatoes, and peppers, and antioxidants that support overall health. With plant-based toppings and olive oil, it supports cardiovascular health.
+            </p>
+            <div class="mbtn9"><button><i class="fa fa-inr" aria-hidden="true"></i>160</button> 
+              <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="viwe">
+      <h4>viwe more</h4>
+    </div>
+  </div>
+</div>
+<!--------------menu end------------------->  
+
+<!--------------about start------------------->  
+<div class="about" id="about">
+  <div class="container">
+    <h1>about <span>us</span></h1>
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="aimage"  data-aos="fade-down" data-aos-duration="2000">
+          <img src="images/about left.png" alt="">
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="acontent" data-aos="fade-up" data-aos-duration="2000">
+          <h2>Best <span>Burger</span>
+            in your City</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa, dolorem reiciendis quisquam perspiciatis corrupti pariatur consequatur! Praesentium dolore dolor molestiae illum optio sequi molestias eos quis sint minima ducimus ab nisi, tenetur cupiditate fugiat. Nesciunt impedit illo accusantium dolor?</p>
+          <div class="abtn"><h4>read more</h4></div>
+        </div>
+    </div>
+    </div>
+  </div>
+</div>
+<!--------------about end------------------->  
+
+<!--------------services start------------------->  
+<div class="services" id="services">
+  <div class="container">
+    <h1><span>our </span>service</h1>
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="ser1" data-aos="flip-left"  data-aos-duration="3000">
+          <div class="sicon">
+            <i class="fa fa-3x fa-user-tie" aria-hidden="true"></i>
+          </div>
+          <div class="scontent">
+            <h3>Master Chefs</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="ser2" data-aos="flip-left"  data-aos-duration="3000">
+          <div class="sicon">
+             <i class="fa fa-3x fa-cutlery" aria-hidden="true"></i>
+          </div>
+          <div class="scontent">
+            <h3>Quality organic</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="ser3" data-aos="flip-left"  data-aos-duration="3000">
+          <div class="sicon">
+            <i class="fa fa-3x fa-shopping-cart" aria-hidden="true"></i>
+          </div>
+          <div class="scontent">
+            <h3>Online Order</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="ser4" data-aos="flip-left" data-aos-duration="3000">
+          <div class="sicon">
+            <i class="fa fa-3x fa-motorcycle" aria-hidden="true"></i>
+          <div class="scontent">
+            <h3>free delivery</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--------------services end------------------->  
+
+<!--------------contact start------------------->  
+<div class="contact" id="contact us" >
+  <div class="container">
+    <h1>contact <span>us</span></h1>
+    <div class="cus">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="us">
+          <input type="text" class="in" placeholder="name"><br>
+          <input type="email" placeholder="email" required><br>
+          <input type="text" placeholder="Subject" required><br>
+          <textarea name="" id="" placeholder="Comments / Questions"></textarea><br>
+          <div class="cubtn">
+            <button>sent message</button><br>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="usmap">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.7325598360508!2d78.69213237480574!3d10.831766889320388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf5b10f78d98b%3A0x6287434a6ec4dd3e!2sILIFE%20ACADEMY!5e0!3m2!1sen!2sin!4v1728896486786!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+<!--------------contact end------------------->  
+
+<!--------------footer start------------------->  
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div class="footone">
+          <h4>content</h4>
+          <div class="add"><i class="fa fa-3x fa-location-dot" aria-hidden="true"></i>address</div>
+          <div class="add"><i class="fa fa-phone" aria-hidden="true"></i>call <a href="tel:9994026225">999 4026 225</a></div>
+          <div class="add"><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:demo@mail.com">burger29@mail.com</a></div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div class="foottwo">
+          <h4>burger</h4>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore iusto omnis sed!</p>
+          <div class="foticon">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""> <i class="bi bi-twitter"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div class="foothree">
+          <h4>opening hours</h4>
+          <p>10-am to 9-pm</p>
+          <i class="fa fa-exchange" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------------footer end------------------->  
+
+<!--- mni footer start--->  
+<div class="minfooter">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="minfoot">
+        <p>Copyright 2024.@burger</p>
+      </div>
+    </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="minfoot1">
+        <p>Designed by <a href="mailto:gjghj.com"><span>velmurugan</span></a></p>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+<!---mni footer end---> 
+<!-- BOPTSTRAP SCRIPT -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- BOPTSTRAP SCRIPT -->
+<!-- AOS Animation -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>
+<!-- AOS SCRIPT -->
+<script>
+  AOS.init();
+</script>
+<!-- AOS SCRIPT -->
+
+
+
+
+
+
+
+
+
+
