@@ -1,0 +1,1121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --main-color:#F09319;
+}
+/**********header start************/
+.header{
+    padding: 5px 0px 5px 0px;
+    font-family: "Nunito", sans-serif;
+}
+.navbar-light .navbar-brand{
+    color: black;
+    text-shadow: 1px 1px 1px;
+    font-weight: 700;
+    margin-left: 80px;
+}
+.navbar-light .navbar-brand span{
+    color: var(--main-color);
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black !important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link span{
+    color: #F09319 !important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: var(--main-color) !important;
+    transition: 0.5s;
+}
+.navbar-expand-lg .navbar-collapse li{
+    padding: 0px 20px 0px 0px;
+}
+.form-control {
+    border-color: rgb(0, 0, 0) !important;
+}
+.btn{
+    background-color: var(--main-color) !important;
+}
+/**********header end*************/
+
+/**********popup start************/
+.btnpop{
+    color: black;
+    padding: 7px 25px 7px 25px;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: var(--main-color);
+    border-radius: 5px;
+    margin-right: 50px;
+}
+.modal-header{
+    background-color: var(--main-color);
+}
+.modal-header h5{
+    color: #000;
+    text-transform: uppercase;
+    padding-top:10px;
+}
+.mb-3 label{
+    color: #000;
+    text-transform: capitalize;
+}
+.btno{
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    background-color: #035504;
+    border-radius: 5px;
+}
+.btnc{
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    background-color:#d60000;
+    border-radius: 5px;
+}
+.modal-body label::after{
+    content: '*';
+    color: #F09319;
+
+}
+/**********popup end************/
+
+/**********banner start***********/
+.banner{
+    background-image: url(../images/ba.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    font-family: "Nunito", sans-serif;
+}
+.banner h1{
+    padding-top: 15%;
+    color: white;
+    font-size: 70px;
+    text-transform: capitalize;
+}
+.banner span{
+    color: var(--main-color);
+    text-shadow: -3px 0px 0px rgb(86, 86, 86);
+    text-transform: uppercase;
+    font-size: 80px;
+}
+.banner p{
+    color: white;
+    font-weight: 500;
+}
+.bbtn button{
+    color: black;
+    padding: 7px 30px 7px 30px;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: var(--main-color);
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 1px solid var(--main-color);
+    margin-bottom: 15%;
+}
+.bbtn button:hover{
+    border-color: var(--main-color);
+    color: white;
+    background: none;
+    transition: 0.5s;
+}
+.bbtn span{
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    text-shadow: none;
+}
+/**********banner end************/
+
+/**********offer start************/
+.offer{
+    text-align: center;
+    font-family: "Rochester", cursive;
+    margin: 80px 0px 80px 0px ;
+}
+.offer h1{
+    color: var(--main-color);
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: -1px 1px 1px black;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+}
+.offimage img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid var(--main-color);
+    border-radius: 75px;
+    float: left;
+    position: relative;
+    top: 7px;
+    left: 60px;
+}
+.offimage img:hover{
+    transform: scale(1.1);
+}
+.oof{
+    background-color: #373A40;
+    padding: 30px 0px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    width: 90%;
+    position: relative;
+    left: 35px;
+}
+.offcontent h3{
+    color: white;
+    font-size: 45px;
+    text-transform: capitalize;
+}
+.offcontent h2{
+    color: #ffffff;
+    font-size: 45px;
+}
+.offbtn button{
+    font-family: "Nunito", sans-serif;
+    background-color: var(--main-color);
+    border: none;
+    font-size: 17px;
+    border: 1px solid var(--main-color);
+    padding: 5px 15px 5px 15px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.offbtn button:hover{
+    color: var(--main-color);
+    background: none;
+    border-color: #F09319;
+}
+.tap button{
+    align-items: center;
+}
+/**********offer end************/
+
+/**********menu start************/
+.menu{
+  background: #e5e5e5;
+  align-items: center;
+    
+}
+.menu h1{
+    color: var(--main-color);
+    text-transform: uppercase;
+    padding: 40px 0px 40px 0px;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: -1px 1px 1px black;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+}
+.menu span{
+    color: #373A40;
+}
+.menu img{
+    width: 130px;
+    height: 130px;
+    position: relative;
+    top: 10px;
+}
+.card{
+    width: 80%;
+    height: 90%;
+    background: #f9f9f9!important;
+    border: 1px solid black;
+    border-radius:20px !important;
+    align-items: center;
+    margin: 20px 0px;
+    transition: 0.3s;
+    position: relative;
+    left: 40px;
+}
+.card:hover{
+    margin-top: -0.5px;
+    transition: 0.3s;
+}
+.card-body{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card-title{
+    text-transform: capitalize;
+    font-family: "Nunito", sans-serif;
+}
+.card-text{
+    font-weight: 400;
+}
+.mbtn{
+    margin-top:0px;
+}
+.card-text{
+    font-size: 16px;
+
+}
+.mbtn button{
+    color: black;
+    padding: 5px 10px 5px 10px;
+    font-size: 17px;
+    font-weight: 800;
+    background: var(--main-color);
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+}
+.mbtn a{
+    background-color: #035504;
+    padding: 7px 9px 7px 9px;
+    font-size: 17px;
+    color: white;
+    border-radius: 35px;
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    transition: 0.5s;
+}
+.mbtn a:hover{
+    color: #035504;
+    background: none;
+}
+.mbtn2 button{
+    color: black;
+    padding: 5px 10px 5px 10px;
+    font-size: 17px;
+    font-weight: 800;
+    background: var(--main-color);
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+}
+.mbtn2 a{
+    background-color: #035504;
+    padding: 7px 9px 7px 9px;
+    font-size: 17px;
+    color: white;
+    border-radius: 35px;
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    transition: 0.5s;
+}
+.mbtn2 a:hover{
+    color: #035504;
+    background: none;
+}
+.mbtn3 button{
+    color: black;
+    padding: 5px 10px 5px 10px;
+    font-size: 17px;
+    font-weight: 800;
+    background: var(--main-color);
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+}
+.mbtn3 a{
+    background-color: #035504;
+    padding: 7px 9px 7px 9px;
+    font-size: 17px;
+    color: white;
+    border-radius: 35px;
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    transition: 0.5s;
+}
+.mbtn3 a:hover{
+    color: #035504;
+    background: none;
+}
+.mbtn5 button{
+    color: black;
+    padding: 5px 10px 5px 10px;
+    font-size: 17px;
+    font-weight: 800;
+    background: var(--main-color);
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+}
+.mbtn5 a{
+    background-color: #035504;
+    padding: 7px 9px 7px 9px;
+    font-size: 17px;
+    color: white;
+    border-radius: 35px;
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    transition: 0.5s;
+}
+.mbtn5 a:hover{
+    color: #035504;
+    background: none;
+}
+.mbtn7 button{
+    color: black;
+    padding: 5px 10px 5px 10px;
+    font-size: 17px;
+    font-weight: 800;
+    background: var(--main-color);
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+.mbtn7 a{
+    background-color: #035504;
+    padding: 7px 9px 7px 9px;
+    font-size: 17px;
+    color: white;
+    border-radius: 35px;
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+.mbtn7 a:hover{
+    color: #035504;
+    background: none;
+}
+.mbtn9 button{
+    color: black;
+    padding: 5px 10px 5px 10px;
+    font-size: 17px;
+    font-weight: 800;
+    background: var(--main-color);
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+}
+.mbtn9 a{
+    background-color: #035504;
+    padding: 7px 9px 7px 9px;
+    font-size: 17px;
+    color: white;
+    border-radius: 35px;
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    transition: 0.5s;
+}
+.mbtn9 a:hover{
+    color: #035504;
+    background: none;
+}
+.viwe{
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+.viwe{ 
+    margin: 0px 0px;
+}
+.viwe h4{
+    color: var(--main-color);
+    text-transform: capitalize;
+    border: 4px solid var(--main-color);
+    padding: 10px;
+    -webkit-mask: 
+      conic-gradient(from 180deg at top 8px right 8px, #0000 90deg,#000 0)
+       var(--_i,200%) 0  /200% var(--_i,8px) border-box no-repeat,
+      conic-gradient(at bottom 8px left  8px,  #0000 90deg,#000 0)
+       0   var(--_i,200%)/var(--_i,8px) 200% border-box no-repeat,
+      linear-gradient(#000 0 0) padding-box no-repeat;
+    transition: .3s, -webkit-mask-position .3s .3s;
+    width: fit-content;
+
+}
+.viwe h4:hover{
+    --_i: 100%;
+    color: #035504;
+    transition: .3s, -webkit-mask-size .3s .3s;
+}
+/**********menu end************/
+
+/**********about start************/
+.about{
+    background: #373A40;
+    align-items: center;
+  }
+.about h1{
+      color: var(--main-color);
+      text-transform: uppercase;
+      padding:40px 0px 0px 0px;
+      font-size: 50px;
+      font-weight: 700;
+      text-shadow: -1px 1px 1px black;
+      text-align: center;
+      font-family: "Nunito", sans-serif;
+  }
+  .about span{
+    color: #e5e5e5;
+  }
+  .aimage img{ 
+    width: 100%;
+  }
+  .acontent{
+    margin-top: 180px;
+  }
+  .acontent h2{
+    color: white;
+    font-family: "Rochester", cursive;
+    text-transform: capitalize;
+    font-size: 70px;
+    border-bottom: 2px  var(--main-color);
+    width: fit-content;
+  }
+  .acontent span{
+    color: var(--main-color);
+  }
+  .acontent p{
+    font-size: 20px;
+    color: white;
+  }
+  .abtn h4{
+    color: var(--main-color);
+    text-transform: capitalize;
+    border: 4px solid var(--main-color);
+    padding: 10px;
+    -webkit-mask: 
+      conic-gradient(from 180deg at top 8px right 8px, #0000 90deg,#000 0)
+       var(--_i,200%) 0  /200% var(--_i,8px) border-box no-repeat,
+      conic-gradient(at bottom 8px left  8px,  #0000 90deg,#000 0)
+       0   var(--_i,200%)/var(--_i,8px) 200% border-box no-repeat,
+      linear-gradient(#000 0 0) padding-box no-repeat;
+    transition: .3s, -webkit-mask-position .3s .3s;
+    width: fit-content;
+}
+.abtn h4:hover{
+    --_i: 100%;
+    color: #ffffff;
+    transition: .3s, -webkit-mask-size .3s .3s;  
+}
+/**********about end************/
+
+/**********services start************/
+.services{
+    margin: 80px 0px 80px 0px;
+}
+.services h1{
+    color: var(--main-color);
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: -1px 1px 1px black;
+    text-align: center;
+    font-family: "Nunito", sans-serif; 
+}
+.ser1{
+    background: #d8a600;
+    padding: 70px 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #d8a600;
+    
+}
+.services span{
+    color: #373A40;
+}
+.sicon i{
+    padding-bottom: 30px;
+}
+.ser1 h3{
+    font-size: 28px;
+    text-transform: capitalize;
+    padding: 5px 0px;
+    font-family: "Nunito", sans-serif; 
+}
+.ser1 p{
+    font-weight: 400;
+    font-size: 16px
+}
+.ser2{
+    background: #007936;
+    padding: 70px 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #007936;
+}
+.ser2 h3{
+    font-size: 28px;
+    text-transform: capitalize;
+    padding: 5px 0px;
+    font-family: "Nunito", sans-serif; 
+}
+.ser2 p{
+    font-weight: 400;
+    font-size: 16px
+}
+
+.ser3{
+    background: #373A40;
+    padding: 70px 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #373A40;
+}
+.ser3 h3{
+    font-size: 28px;
+    text-transform: capitalize;
+    padding: 5px 0px;
+    font-family: "Nunito", sans-serif; 
+}
+.ser3 p{
+    font-weight: 400;
+    font-size: 16px
+}
+.ser4{
+    background: #d60000;
+    padding: 70px 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #d60000;
+}
+.ser4 h3{
+    font-size: 28px;
+    text-transform: capitalize;
+    padding: 5px 0px;
+    font-family: "Nunito", sans-serif; 
+}
+.ser4 p{
+    font-weight: 400;
+    font-size: 16px
+}
+.ser1:hover{
+    background: white;
+    color:#d8a600;
+    transition: 0.3s;
+    border-color: #d8a600;
+}
+.ser2:hover{
+    background: white;
+    color: #007936;
+    transition: 0.3s;
+    border-color: #007936;
+}
+.ser3:hover{
+    background: white;
+    color: #373A40;
+    transition: 0.3s;
+    border-color: #373A40;
+}
+.ser4:hover{
+    background: white;
+    color: #d60000;
+    transition: 0.3s;
+    border-color: #d60000;
+}
+/**********services end************/
+
+/**********contect us start************/
+.contact{
+    margin-top:80px ;
+    background-color:#e5e5e5 ;
+}
+.contact h1{
+    color: var(--main-color);
+    text-transform: uppercase;
+    padding: 40px 0px 40px 0px;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: -1px 1px 1px black;
+    text-align: center;
+    font-family: "Nunito", sans-serif; 
+}
+.contact span{
+    color: #373A40;
+}
+.us input{
+    margin: 10px 0px 20px 0px;
+    padding: 10px 350px 10px 10px;
+    border: none;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-size: 17px;
+    box-shadow: 2px 2px 2px rgb(131, 129, 129);
+    outline: none;
+}
+.us textarea{
+    margin: 10px 0px 20px 0px;
+    padding: 10px 370px 10px 10px;
+    border: none;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-size: 17px;
+    outline: none;
+    box-shadow: 2px 2px 2px rgb(131, 129, 129);
+}
+.usmap iframe{
+    width: 100%;
+    height: 350px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    margin-bottom: 0px;
+    box-shadow: 2px 2px 2px rgb(131, 129, 129);
+}
+.cubtn button{
+    color: #000000;
+    text-transform: uppercase;
+    border: 4px solid var(--main-color);
+    font-family: "Nunito", sans-serif; 
+    padding: 10px;
+    background:white;
+    border-radius: 10px;
+    margin-bottom:40px ;
+    -webkit-mask: 
+      conic-gradient(from 180deg at top 8px right 8px, #0000 90deg,#000 0)
+       var(--_i,200%) 0  /200% var(--_i,8px) border-box no-repeat,
+      conic-gradient(at bottom 8px left  8px,  #0000 90deg,#000 0)
+       0   var(--_i,200%)/var(--_i,8px) 200% border-box no-repeat,
+      linear-gradient(#000 0 0) padding-box no-repeat;
+    transition: .3s, -webkit-mask-position .3s .3s;
+    width: fit-content;
+}
+.cubtn button:hover{
+    --_i: 100%;
+    color: #000000;
+    transition: .3s, -webkit-mask-size .3s .3s;  
+}
+.usmap{
+    width: 100%;
+}
+/**********contect us end************/
+
+/**********footer start************/
+.footer{
+    text-align: center;
+    background-color: #373A40;
+    padding: 60px 0px;
+}
+.footer h4{
+    color: rgb(255, 255, 255);
+    font-family: "Rochester", cursive;
+    text-transform: capitalize;
+    font-size: 35px;
+}
+.add a{
+    text-decoration: none;
+    color: #e5e5e5;
+}
+.footone i{
+    font-size: 20px;
+    padding: 10px 10px 0px 0px;
+    color: var(--main-color);
+}
+.footone i:hover{
+    color: white;
+}
+.footone .add{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+.foottwo p{
+    color: white;
+    font-size: 16px;
+}
+.foottwo i{
+    font-size: 22px;
+    padding: 10px 10px 0px 0px;
+    color: var(--main-color);
+}
+.foottwo i:hover{
+    color: white;
+}
+.foothree p{
+    color: white;
+    font-size: 16px;
+}
+.foothree i{
+    font-size: 22px;
+    padding: 10px 10px 0px 0px;
+    color: var(--main-color);
+}
+.foothree i:hover{
+    color: white;
+}
+/**********footer end************/
+
+/****mniheader start****/
+.minheader{
+    background-color: #000;
+    color: white;
+    font-family: "Nunito", sans-serif;
+}
+.contact-info a{
+    color: white;
+    text-decoration: none;
+}
+.contact-info a:hover{
+    color: white;
+}
+.social-links a{
+    color: #ffffff;
+    padding-right: 10px;
+}
+.social-links a:hover{
+    color: #F09319;
+}
+/****mniheader end****/
+        
+/****mninfooter start****/
+.minfooter{
+    background-color: #e5e5e5;
+    color: #000;
+    padding: 10px 0px 0px 0px ;
+}
+.minfoot1 span{
+    color: var(--main-color);
+}
+.minfoot1 a{
+    text-decoration:none;
+}
+.minfoot1{
+    text-align: end;
+}
+/****mnifooter end****/
+
+.form-control:focus{
+    box-shadow:none!important;
+    border:2px solid var(--main-color)!important;
+    outline:none;
+}
+
+
+
+/* For screens 1199px and below */
+@media (max-width: 1199px) {
+    .navbar-expand-lg .navbar-collapse li{
+        padding: 0px 5px 0px 0px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 13px;
+    }
+    .acontent p{
+    font-size: 16px;
+    }
+    .mnihead3 a{
+        padding: 0px 7px 0px 0px;
+    }
+    .btnpop{
+        padding: 8px 3px 8px 3px;
+        font-size: 13px;
+        
+    }
+    .offimage img {
+        width: 120px;
+        height: 120px; 
+        position: relative;
+        top: 7px;
+        left: 30px;
+    }
+    .offbtn{
+        margin-left:100px;
+    }
+    .acontent h2 {
+        font-size: 50px;
+    }
+    .acontent{
+        margin-top: 120px;
+    }
+    .us input{
+        padding: 10px 180px 10px 10px;
+    }
+    .us textarea {
+        padding: 10px 200px 10px 10px;
+}
+}
+/* For screens 991px and below */
+@media (max-width: 991px) {
+    .banner h1{
+        font-size: 60px;
+        text-align: center;
+    }
+    .banner span{
+        font-size: 60px;
+    }
+    .banner p{
+        text-align: center;
+    }
+    .bbtn{
+        text-align: center;
+    }
+    .bbtn span{
+        font-size: 30px;
+    }
+    .card{
+        width: unset;
+        height: unset;
+    }
+    .offimage img:hover{
+        transform: scale(1.1);
+    }
+    .oof{
+        padding: 30px 0px;
+    }
+    .offcontent h2{
+      font-size: 35px;
+    }
+    .offimage img {
+        top: -10px;
+    }
+    .offcontent h3 {
+        font-size: 35px;
+    }
+    .acontent {
+        margin-top: 70px;
+    }
+    .acontent h2 {
+        font-size: 35px;
+    }
+    .acontent p{
+        font-size: 13px;
+        padding: 0px 0px;
+    }
+    .us input{
+        padding: 10px 100px 10px 10px;
+    }
+    .us textarea {
+        padding: 10px 120px 10px 10px;
+    }
+
+    .offcontent{
+        padding: 0px 20px 0px 20px;
+    }
+    .offimage img {
+        width: 100px;
+        height: 100px;
+    }
+    .offcontent h3 {
+        font-size: 27px;
+    }
+    .offbtn {
+        margin-left: 80px;
+    }
+    .offbtn button{
+        font-size: 14px;
+    }
+    .card{
+        width: 100%;
+        height: 92%;
+    }
+    .mbtn9 button{
+        margin-top: 45px;
+    }
+    .mbtn9 a {
+        margin-top:45px;
+    }
+    .mbtn7 button{
+        margin-top: 52px;
+    }
+    .mbtn7 a {
+        margin-top:52px;
+    }
+    .mbtn5 button{
+        margin-top: 25px;
+    }
+    .mbtn5 a {
+        margin-top:25px;
+    }
+    .mbtn3 button{
+        margin-top: 28px;
+    }
+    .mbtn3 a {
+        margin-top:28px;
+    }
+    .mbtn2 button{
+        margin-top: 28px;
+    }
+    .mbtn2 a {
+        margin-top:28px;
+    }
+}
+
+/* For screens 767px and below */
+@media (max-width: 767px) {
+    .bbtn span{
+        font-size: 20px;
+    }
+    .acontent h2 {
+        font-size: 55px;
+    }
+    .aimage img {
+        width: 80%;
+    } 
+     .offimage img {
+         top: 10px;
+     }
+    .acontent {
+        margin-top: 0px;
+    }
+    .acontent p {
+        font-size: 15px;
+        padding: 0px 0px;
+    }
+    .us input {
+        padding: 10px 310px 10px 10px;
+    }
+    .us textarea {
+        padding: 10px 342px 10px 10px;
+    }
+    .card {
+        width: 80%;
+        height: 92%;
+    }
+    .col-sm-8{
+        padding: 20px 0px;
+        position: relative;
+        left: 60px;
+    }
+    .usmap {
+        width: 100%;
+        margin: 20px 0px 30px 0px;
+    }
+    .footone{
+        margin-bottom: 20px;
+    }
+    .foottwo{
+        margin-bottom: 20px;
+    }
+
+    .minfoot1 {
+        text-align: end;
+        margin: -40px 0px 0px 0px;
+    }
+    .minfooter{
+        padding: auto
+        ;
+    }
+}
+
+/* For screens 560px and below */
+@media (max-width: 560px) {
+    .navbar-light .navbar-brand {
+        margin-left: 30px;
+    }
+    .oof {
+        left: 20px;
+       }
+
+    .banner h1{
+        font-size: 50px;
+    }
+    .banner span {
+        font-size: 50px;
+    }
+    .banner p {
+        font-size: 13px;
+    }
+    .bbtn button{
+        padding: 7px 20px 7px 20px;
+        font-size: 15px;
+    }
+    .bbtn span{
+        font-size: 22px;
+    }
+    .card{
+        width: 85%;
+        position: relative;
+        left: 25px;
+    }
+    .offimage img {
+        width: 100px;
+        height: 100px;
+    }
+    .aimage img {
+        width: 80%;
+        position: relative;
+        left: 30px;
+    }
+    .acontent h2 {
+        font-size: 35px;
+    }
+    .acontent p {
+        font-size: 14px;
+        padding: 5px 10px 0px 0px;
+    }
+    .acontent{
+        margin: -20px 0px 0px 10px;
+    }
+    .ser1{
+        width: 80%;
+        position: relative;
+        left: 35px;
+    }
+    .ser2{
+        width: 80%;
+        position: relative;
+        left: 35px;
+    }
+    .ser3{
+        width: 80%;
+        position: relative;
+        left: 35px;
+    }
+    .ser4{
+        width: 80%;
+        position: relative;
+        left: 35px;
+    }
+    .us input {
+        padding: 10px 50px 10px 10px;
+    }
+    .us textarea {
+        padding: 10px 90px 10px 10px;
+    }
+    .us{
+        margin: 0px 0px 0px 10px;
+    }
+    .usmap {
+       display: none;
+    }
+    .foottwo p{
+        padding: 0px 30px 0px 30px;
+    }
+    .modal.show .modal-dialog {
+        transform: none;
+        width: 70%;
+        position: relative;
+        left: 60px;
+    }
+    .minfoot{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .minfoot1{
+        font-size: 14px;
+        font-weight: 500
+    }
+
+}
